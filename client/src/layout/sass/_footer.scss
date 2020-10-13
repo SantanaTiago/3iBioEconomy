@@ -1,0 +1,17 @@
+.layout-footer {
+    @include transition(margin-left $transitionDuration);
+    background-color: $footerBgColor;
+    padding: 1em 2em;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+
+    img {
+        vertical-align: middle;
+    }
+
+    .footer-text {
+        vertical-align: middle;
+    }
+}
